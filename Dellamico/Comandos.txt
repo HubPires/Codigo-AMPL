@@ -1,0 +1,5 @@
+reset;
+model ExatoDMN3.mod;
+option solver gurobi;
+option gurobi_options 'timelim 600' 'logfile test_437v9.log';
+solve;
